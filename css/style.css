@@ -1,0 +1,277 @@
+@charset "utf-8";
+/***************all****************/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	width: 85%;
+	margin: 0 auto;
+	
+}
+/*************start header*****************/
+
+header {
+	width: 100%;
+	position: fixed;
+	
+}
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+}
+.burger {
+	display: none;
+}
+.main-nav ul {
+	display: flex;
+	
+}
+.main-nav ul li {
+	margin-left: 30px;
+}
+.main-nav ul li a {
+	color: #2b292d;
+	font-weight: 600;
+	
+}
+.sticky {
+	background-color: #000;
+	
+	
+}
+.sticky .container {
+	height: 50px;
+}
+.sticky ul li a {
+	color: #fff;
+}
+/***************start main ******************/
+
+.hero .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+}
+.hero__desc {
+	width: 45%;
+}
+.hero__desc h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+.hero__desc p {
+	font-weight: 600;
+	line-height: 35px;
+}
+.hero__image {
+	width: 48%;
+}
+.hero__image img {
+	width: 100%;
+}
+.hero__desc a.button {
+	padding: 10px 30px;
+	display: inline-block;
+	background-color: #3040c4;
+	margin-top: 15px;
+	border-radius: 18px;
+	color: #fff;
+	font-weight: 600;
+	
+}
+/********************start meetyourmatch**************/
+
+.background {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #eef0fc;
+	padding: 30px ;
+	border-radius: 25px;
+
+}
+.background h2 {
+	margin-bottom: 25px;
+}
+.background form .switcher {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 60%;
+	margin: 0 auto
+	
+}
+
+.switcher img {
+	width: 90px
+}
+.switcher input {
+	display: none;
+}
+.form-group {
+	margin: 20px 0px;
+}
+.form-group input {
+	width: 65%;
+	height: 38px;
+	padding-left: 20px;
+	border-radius: 16px;
+	border: 1px solid #3040c4;
+	outline: none;
+	font-weight: 600;
+}
+.form-group button {
+	height: 38px;
+    padding: 0px 25px;
+	border-radius: 16px;
+	border: none;
+	outline: none;
+	font-weight: 600;
+	background-color: #3040c4;
+}
+/*****************widget********************/
+.meetYourMatchcontent .widgets.is-searchResults {
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+	margin: 30px 0px;
+	padding: 35px 0px;
+	
+	
+}
+.widget {
+	width: 24%;
+	margin: 0px 1%;
+	margin-left: 0;
+	
+	
+}
+.widget__image img {
+	width: 100%;
+}
+.widget__desc {
+	padding-left: 20px;
+	margin-top: 10px;
+}
+/***************how is works****************/
+.howItWorks {
+	padding: 35px 0px;
+	text-align: center;
+	margin: 30px 0px;
+}
+.howItWorks .container h2 {
+	margin: 15px 0px;
+}
+.is-howItWorks {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px 0px;
+}
+.is-howItWorks h3 {
+	margin: 20px 0px;
+}
+/**************featured stories**************-*/
+.stories {
+	padding: 30px 0px;
+	text-align: center;
+}
+.is-howItWorks p {
+	line-height: 32px;
+	margin: 15px 0px;
+}
+.stories h2 {
+	margin: 20px 0px;
+}
+.stories p {
+	
+	margin-bottom: 28px;
+}
+.stories .widgets {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px 0px;
+	margin: 25px 0px;
+}
+.stories .widgets .widget {
+	width: 32%;
+	text-align: left;
+}
+.stories .widgets .widget img{
+	width: 100%;
+}
+/*******************action*******************/
+.actions {
+	width: 100%;
+	text-align: center;
+	height: 250px;
+	background-color: #3040c4;
+	display: flex
+		;
+	justify-content: center;
+	align-items: center;
+	
+}
+.actions h2{
+	margin-bottom: 30px;
+	font-size: 28px;
+}
+.actions .button {
+	margin: 0px 20px;
+	padding: 10px 28px;
+	background-color: #fff;
+	border-radius: 18px;
+	font-weight: 600;
+	color: #3040c4;
+}
+.button.is-outline {
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+}
+/*******************start footer*******************/
+footer {
+	width: 100%;
+	
+}
+footer .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	
+}
+
+footer .container .footer-nav {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+}
+
+footer .container .footer-nav .item {
+	width: 25%;
+	padding: 30px 0px;
+}
+
+footer .container .footer-nav .item h5 {
+	font-size: 20px;
+	margin: 25px 0px 15px;
+}
+footer .container .footer-nav .item ul li {
+	line-height: 35px;
+}
+footer .container .footer-nav .item ul li a{
+	color: #000;
+}
